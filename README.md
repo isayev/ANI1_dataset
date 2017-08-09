@@ -32,9 +32,6 @@ Energies: Hartrees
 
 ### Self-interaction atomic energies
 H = -0.500607632585
-
 C = -37.8302333826
-
 N = -54.5680045287
-
 O = -75.0362229210
