@@ -1,5 +1,5 @@
 # ANI-1 dataset support repository
-This repository contains the scripts needed to access the ANI-1 data set. Data used in the training of machine learned potentials:
+###### This repository contains the scripts needed to access the ANI-1 data set.
 
 ##### Original ANI-1 potential paper where this data set was first used.
 Justin S. Smith, Olexandr Isayev, Adrian E. Roitberg. *ANI-1: An extensible neural network potential with DFT accuracy at force field computational cost.* Chemical Science, 2017, DOI: 10.1039/C6SC05720A 
