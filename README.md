@@ -1,8 +1,11 @@
 # ANI-1 dataset support repository
 This repository contains the scripts needed to access the ANI-1 data set.
 
-##### Original ANI-1 potential paper where this data set was first used.
+##### If you use ANI-1 dataset please cite the following two papers: 
+
 Justin S. Smith, Olexandr Isayev, Adrian E. Roitberg. *ANI-1: An extensible neural network potential with DFT accuracy at force field computational cost.* Chemical Science, 2017, DOI: 10.1039/C6SC05720A 
+
+Justin S. Smith, Olexandr Isayev, Adrian E. Roitberg. *ANI-1, A data set of 20 million calculated off-equilibrium conformations for organic molecules.*  Scientific Data, 4, Article number: 170193, DOI: 10.1038/sdata.2017.193 https://www.nature.com/articles/sdata2017193
 
 ### Required software
 Python3.5 or better
