@@ -43,3 +43,8 @@ H = -0.500607632585
 C = -37.8302333826
 N = -54.5680045287
 O = -75.0362229210
+
+## Related work
+
+### Developing the ANI-1x potential with active learning:
+Justin S. Smith, Ben Nebgen, Nicholas Lubbers, Olexandr Isayev, Adrian E. Roitberg. *Less is more: sampling chemical space with active learning*. arXiv, 2018, DOI: [arXiv:1801.09319] (https://arxiv.org/abs/1801.09319)
