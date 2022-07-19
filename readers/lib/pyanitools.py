@@ -56,7 +56,7 @@ class anidataloader(object):
                 data = {'path':path}
                 for k in keys:
                     if not isinstance(item[k], h5py.Group):
-                        dataset = np.array(item[k].value)
+                        dataset = np.array(item[k])[()]
 
                         if type(dataset) is np.ndarray:
                             if dataset.size != 0:
@@ -92,7 +92,7 @@ class anidataloader(object):
         # print(path)
         for k in keys:
             if not isinstance(item[k], h5py.Group):
-                dataset = np.array(item[k].value)
+                dataset = np.array(item[k])[()]
 
                 if type(dataset) is np.ndarray:
                     if dataset.size != 0:
