@@ -1,7 +1,8 @@
-import pyanitools as pya
+import lib.pyanitools as pya
+import os
 
-# Set the HDF5 file containing the data
-hdf5file = '../ani_gdb_s01.h5'
+# Set the HDF5 file containing the testdata
+hdf5file = os.path.join(os.path.dirname(__file__), '../benchmark/ani1_gdb10_ts.h5')
 
 # Construct the data loader class
 adl = pya.anidataloader(hdf5file)
