@@ -3,7 +3,7 @@ import os
 
 # Set the HDF5 file containing the testdata
 hdf5file = os.path.join(os.path.dirname(__file__), '../benchmark/ani1_gdb10_ts.h5')
-
+ 
 # Construct the data loader class
 adl = pya.anidataloader(hdf5file)
 
